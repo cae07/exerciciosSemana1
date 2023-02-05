@@ -1,0 +1,22 @@
+{
+  "name": "exerciciossemana1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "arrays.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cae07/exerciciosSemana1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cae07/exerciciosSemana1/issues"
+  },
+  "homepage": "https://github.com/cae07/exerciciosSemana1#readme",
+  "devDependencies": {
+    "jest": "^29.4.1"
+  }
+}
