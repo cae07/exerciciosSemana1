@@ -5,7 +5,7 @@ const {
   lastItemOne,
   lastItemTwo,
   lastItemThree
-} = require( "./mocks/arrays.mock");
+} = require( "../mocks/arrays.mock");
 const {
   sum,
   multiplication,
@@ -13,13 +13,15 @@ const {
   lastItem,
   addItem,
   removeLastItem
-} = require('../arrays');
+} = require('../../arrays');
 
 describe('Arrays méthods', () => {
+  
   describe('Function sum should perform in each case', () => {
     it('First case', () => {
       const response = sum(firstCase);
       expect(response).toBe(143);
+      delete global.foo
     });
 
     it('Second case', () => {
@@ -83,8 +85,8 @@ describe('Arrays méthods', () => {
     });
   });
 
+  const newItem = 'Novo item';
   describe('Function addItem should perform in each case', () => {
-    const newItem = 'Novo item';
     it('First case', () => {
       const response = addItem(newItem, lastItemOne);
       expect(response.length).toBe(5);
@@ -104,17 +106,17 @@ describe('Arrays méthods', () => {
   describe('Function removeLastItem should perform in each case', () => {
     it('First case', () => {
       const response = removeLastItem(lastItemOne);
-      expect(response.includes('pera')).toBe(false);
+      expect(response.includes(newItem)).toBe(false);
     });
 
     it('Second case', () => {
       const response = removeLastItem(lastItemTwo);
-      expect(response.includes('skate')).toBe(false);
+      expect(response.includes(newItem)).toBe(false);
     });
 
     it('Third case', () => {
       const response = removeLastItem(lastItemThree);
-      expect(response.includes('José')).toBe(false);
+      expect(response.includes(newItem)).toBe(false);
     });
   });
 });

@@ -228,6 +228,9 @@ const firstObj = {
 **IMPLEMENTAR FUNÇÃO RETURNAVERAGEBYCITY**
 <p>O método returnAverageByCity recebe um array de objetos como do exemplo e uma cidade como parâmetro e deve retornar a média da idade das pessoas que moram nesta cidade</p>
 
+**ATENÇÃO**
+<p>NO CASO DE NÚMERO QUEBRADO, DEVE ARREDONDAR A RESPOSTA PARA BAIXO</p>
+
 <br>
 
 ----------

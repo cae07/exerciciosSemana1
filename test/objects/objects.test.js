@@ -1,5 +1,20 @@
-const { rescueByKey, returnStreetName } = require("../objetos");
-const { firstObj, secondObj, thirdObj, streetNameOne, streetNameThree, firstArray, arrayFinal } = require("./mocks/objects.mock");
+const {
+  rescueByKey,
+  returnStreetName,
+  returnMobileNumber,
+  returnNameByInterest,
+  returnAverageByCity,
+} = require("../../objetos");
+const {
+  firstObj,
+  secondObj,
+  thirdObj,
+  streetNameOne,
+  streetNameThree,
+  firstArray,
+  arrayFinal,
+  streetNameTwo
+} = require("../mocks/objects.mock");
 
 describe('Object méthods', () => {
   describe('Function rescueByKey should perform in each case', () => {
@@ -27,7 +42,7 @@ describe('Object méthods', () => {
     });
 
     it('Second case', () => {
-      const response = returnStreetName(streetNameOne);
+      const response = returnStreetName(streetNameTwo);
       expect(response).toBe(`${initialResponse} das esmeraldas`);
     });
 

@@ -23,5 +23,10 @@ function removeLastItem(array) {
 }
 
 module.exports = {
-  sum, multiplication, average, lastItem, addItem, removeLastItem
+  sum,
+  multiplication,
+  average,
+  lastItem,
+  addItem,
+  removeLastItem
 }
