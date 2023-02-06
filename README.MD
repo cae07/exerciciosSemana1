@@ -81,7 +81,7 @@ const newArray = ['batata', 'cenoura', 'chuchu', 'beterraba']
 <br>
 
 **IMPLEMENTAR FUNÇÃO LASTTEM**
-<p> O método lastItem recebe um newArray igual ao exemplo como parâmetro e deve retornar o último elementos </p>
+<p> O método lastItem recebe um newArray igual ao exemplo como parâmetro e deve retornar o último elemento </p>
 
 <br>
 
