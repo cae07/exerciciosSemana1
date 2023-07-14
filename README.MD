@@ -15,7 +15,7 @@
 
 * git clone <strong>git@github.com:cae07/exerciciosSemana1.git</strong>
 
-## entre na pasta clonada
+** entre na pasta clonada **
 cd exerciciosSemana1
 
 **Instale as dependências**
